@@ -1,0 +1,91 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+  width: 70%;
+    height: 70%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* *********************valudtion */
+label{
+color: #b59175 !important;
+font-family: 'Dancing Script', cursive;
+font-size: 2em;
+}
+::placeholder{
+  color: #b59175 !important;
+  font-family: Belleza;
+
+}
+.errorMsg{
+  font-family: Belleza;
+
+  background: rgba(181, 145, 117,.2);
+  color: #b59175;
+  font-weight: 900;
+}
+
+
+#btnSubmit{
+  border: 1px solid #b59175 !important;
+  color: #b59175;
+
+}
+#btnSubmit:hover{
+  background: #b59175;
+  color: white;
+
+
+}
+textarea , .inpValid {
+  color: #b59175 !important;
+
+  border: none !important;
+  border-bottom: 1px solid #b59175 !important;
+  background: none !important;
+  margin-bottom: .5rem !important;
+}
+
+.coll p {
+  font-family: 'Dancing Script', cursive;
+
+  font-size: 4em;
+  line-height:1em;
+  font-weight: 100;
+  margin-bottom:-.1rem ;
+  color: rgba(180, 144, 116, 0.3);
+
+}
+  #errorName{
+    display: none;
+  }
+
+  #errorEmail{
+    display: none;
+  }
+  #errorEmail2{
+    display: none;
+
+  }
+  #errorPass{
+    display: none;
+
+  }
+  #errorPass2{
+    display: none;
+
+  }
+  #errorMsg{
+    display: none;
+  }

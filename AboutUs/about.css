@@ -1,0 +1,29 @@
+.coll p {
+    font-family: 'Dancing Script', cursive;
+text-align: center;
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 100;
+    text-transform: uppercase;
+    /* margin-top: -0.5em; */
+    color: rgba(180, 144, 116, 0.5);
+
+}
+.prodetails p{
+    font-family: 'Dancing Script', cursive;
+        font-size: 2em;
+        line-height: 1em;
+        font-weight: 100;
+       
+        color: rgba(180, 144, 116, 0.5); 
+}
+.aboutus p{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+        font-size: 10em;
+        line-height: 1em;
+        font-weight: 100;
+        /* text-transform: uppercase; */
+        margin-top: -0.5em;
+        color: rgba(180, 144, 116, 0.2); 
+}

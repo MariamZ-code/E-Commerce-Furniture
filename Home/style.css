@@ -1,0 +1,175 @@
+
+
+
+/* ******************* SLIDER  ******************* */
+#sliderOne{
+    position: relative;
+}
+.sliderText{
+    text-align: center;
+    z-index: 0;
+    font-size: 10em;
+   text-transform: uppercase;
+    line-height: 1em;
+    font-weight: 100;
+    color: rgba(180, 144, 116, 0.2);
+    /* position: absolute; */
+}
+.sliderText p{
+    font-family: Belleza;
+   
+    /* position: relative; 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 100; */
+}
+
+  
+  @keyframes example {
+    100% {left:100%; }
+    75%  {left:75%}
+    50%  {left:50%;}
+    25%  {left:25%;}
+    0%   {left:0%;}
+   
+  }
+.arrows{
+    font-size: 30px;
+    color: #b59175;
+    font-weight: 100;
+}
+/* ******************* Categories  ******************* */
+#categories p{
+color: rgba(181, 145, 117,0.2);
+}
+#categories h5{
+font-weight: 500;
+cursor: pointer;
+}
+#categories h5:hover{
+    color: #b59175;
+
+    }
+
+/* ******************* NEW  ******************* */
+#watchPart{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.btnWatch {
+    border: 1px solid #fff;
+    width: 10em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.btnWatch:hover {
+    text-decoration: underline;
+color: #b59175 !important;
+
+}
+
+#newContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+
+#newContent h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    line-height: 1em;
+    font-weight: 300;
+
+}
+
+#newContent p {
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 200;
+
+}
+
+/* ******************* COLLECTION ******************* */
+#collection h2 {
+
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 3rem;
+    line-height: 1em;
+    margin: .2rem 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+
+}
+
+.coll p {
+    font-family: 'Dancing Script', cursive;
+
+    font-size: 10em;
+    line-height: 1em;
+    font-weight: 100;
+    margin-top: -0.5em;
+    color: rgba(180, 144, 116, 0.2);
+
+}
+
+.myCollection .card {
+    border: none !important;
+    background: transparent;
+
+}
+
+.myCollection img:hover {
+    transform: scale(1.05) translateX(0);
+    transition: transform .6s;
+}
+
+.card-body {
+    padding: .4rem;
+    margin: 0;
+}
+
+.myCollection a {
+    font-size: 14px;
+    line-height: 1.62em;
+    font-weight: 300;
+    color: #595959;
+    text-decoration: none;
+}
+
+.myCollection a:hover {
+    color: #b59175;
+}
+
+.myCollection h4 {
+    font-family: Belleza, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 1.12em;
+    margin: 1em 0;
+    word-wrap: break-word;
+}
+
+.myCollection h4:hover {
+    color: #b59175;
+}
+
+.myCollection button:hover {
+    color: #b59175;
+    text-decoration: line-through;
+}
+
+

@@ -1,0 +1,60 @@
+.coll p {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 100;
+  
+    color: rgba(180, 144, 116, 0.5);
+}
+#myCat{
+    cursor: pointer;
+}
+.cat{
+    cursor: pointer;
+
+}
+.catOpTion{
+    display: none;
+
+}
+#catList{
+    color: #b59175;
+  
+    font-weight: 900;
+}
+#cartBtn{
+    position: absolute; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+ opacity: 0;
+
+
+
+}
+
+#cartBtn:hover{
+    background: rgba(0, 0, 0,.4); 
+ opacity: 1;
+ color: #b59175;
+font-weight: 900;
+    
+
+}
+.btn{
+    color: wheat !important;
+    font-weight: 700 !important;
+    line-height: 1em;
+}
+.btn:hover{
+    text-decoration: underline;
+   
+}
+.card {
+    border-radius: 2px;
+    border: none !important;
+    background: transparent;
+    position: relative;
+
+}
